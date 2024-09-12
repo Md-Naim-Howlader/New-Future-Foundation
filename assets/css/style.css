@@ -24,6 +24,9 @@ h6 {
 p {
   font-family: var(--font-secondary);
 }
+.container {
+  max-width: 1270px;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -131,11 +134,17 @@ p {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: var(--color-primary);
 
   font-family: var(--font-primary);
   white-space: nowrap;
   transition: 0.3s;
+}
+.navbar a {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.navbar a:hover {
+  color: var(--color-primary);
 }
 .navbar a i,
 .navbar a:focus i {
@@ -271,9 +280,13 @@ p {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+  overflow: hidden;
 }
 .slider-1 {
   background: url("../img/hero/hero-slider-2.jpeg");
+}
+.slider-2 {
+  background: url("../img/hero/hero-slider-1.jpeg");
 }
 .heroSlider {
   background-repeat: no-repeat;
@@ -354,7 +367,7 @@ p {
 .our-success {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 3%;
   width: 100%;
   z-index: 9999;
 }

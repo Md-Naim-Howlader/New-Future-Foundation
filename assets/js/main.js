@@ -104,6 +104,29 @@
     true
   );
 
+  // swiper start
+  const swiper = new Swiper(".hero-slider", {
+    // Optional parameters
+    loop: true, // Infinite loop
+    autoplay: {
+      delay: 4000, // Slide duration (in ms)
+      disableOnInteraction: false, // Continue autoplay after user interaction
+    },
+
+    // Enable navigation (arrows)
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    // Enable pagination (bullets)
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  // swiper end
   /**
    * Scroll with ofset on page load with hash links in the url
    */
@@ -124,23 +147,6 @@
       preloader.remove();
     });
   }
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper(".portfolio-details-slider", {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-  });
 
   /**
    * Animation on scroll
