@@ -1,5 +1,18 @@
-@media screen and(max-width: 992px) {
-  body {
-    background: red;
+@media (max-width: 992px) {
+  .heroSlider {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+  }
+  .our-success {
+    bottom: -27%;
+  }
+}
+@media (max-width: 768px) {
+  .our-success {
+    bottom: -28%;
   }
 }
