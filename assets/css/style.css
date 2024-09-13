@@ -77,7 +77,7 @@ p {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 99999;
+  z-index: 99999999;
   backdrop-filter: blur(5px);
   padding: 20px 0;
 }
