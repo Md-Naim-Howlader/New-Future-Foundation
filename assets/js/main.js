@@ -107,13 +107,12 @@
   // swiper start
   const swiper = new Swiper(".hero-slider", {
     // Optional parameters
-    loop: true, // Infinite loop
+    loop: true,
     autoplay: {
-      delay: 4000, // Slide duration (in ms)
-      disableOnInteraction: false, // Continue autoplay after user interaction
+      delay: 4000,
+      disableOnInteraction: false,
     },
 
-    // Enable navigation (arrows)
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
