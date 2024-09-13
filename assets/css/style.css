@@ -278,7 +278,6 @@ p {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  overflow: hidden;
 }
 .slider-1 {
   background: url("../img/hero/hero-slider-2.jpeg");
@@ -292,7 +291,7 @@ p {
 .heroSlider {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   position: relative;
   z-index: 999;
@@ -382,15 +381,27 @@ p {
 }
 
 /* our success */
-.main {
+.hero {
+  position: relative;
+}
+.hero-slider {
   position: relative;
 }
 .our-success {
   position: absolute;
   left: 0;
-  bottom: 3%;
+  bottom: 0%;
   width: 100%;
-  z-index: 9999;
+  z-index: 999999;
+}
+.our-success::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(50% + 20px);
+  background-color: #fff;
 }
 .our-success .row {
   border: 1px solid rgba(242, 222, 186, 0.5);
@@ -419,4 +430,9 @@ p {
 
 .success-box p {
   color: var(--color-dark);
+}
+
+/* about */
+.about {
+  margin-top: 70px;
 }

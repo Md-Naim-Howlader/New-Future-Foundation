@@ -2,7 +2,7 @@
   .heroSlider {
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: auto;
+    height: 100%;
     width: 100%;
     position: relative;
     z-index: 999;
@@ -15,7 +15,7 @@
     border: 1px solid #fff;
     border-radius: 50%;
     margin: 0 20px;
-    top: 63%;
+    top: 81%;
   }
   .swiper-button-next {
     right: 33%;
@@ -26,23 +26,23 @@
     height: 50px;
   }
   .our-success {
-    bottom: -27%;
+    bottom: -48%;
   }
 }
 @media (max-width: 768px) {
   .swiper-button-next,
   .swiper-button-prev {
-    top: 53%;
+    top: 79%;
   }
   .swiper-button-prev {
     height: 40px;
     width: 40px;
   }
   .swiper-button-next {
-    right: 20%;
+    right: 30%;
   }
   .swiper-button-prev {
-    left: 20%;
+    left: 30%;
     height: 50px;
     width: 50px;
   }
@@ -50,19 +50,19 @@
     padding-top: 170px;
   }
   .our-success {
-    bottom: -28%;
+    bottom: -113%;
   }
 }
 @media (max-width: 575px) {
   .swiper-button-next,
   .swiper-button-prev {
-    top: 48%;
+    top: 78%;
   }
   .swiper-button-next {
-    right: 10%;
+    right: 20%;
   }
   .swiper-button-prev {
-    left: 10%;
+    left: 20%;
     height: 50px;
     width: 50px;
   }
