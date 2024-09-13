@@ -28,6 +28,12 @@
   .our-success {
     bottom: -48%;
   }
+  .about {
+    padding-top: 700px;
+  }
+  .video-thmb {
+    padding-top: 220px;
+  }
 }
 @media (max-width: 768px) {
   .swiper-button-next,
