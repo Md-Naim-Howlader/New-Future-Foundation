@@ -108,6 +108,7 @@
   const swiper = new Swiper(".hero-slider", {
     // Optional parameters
     loop: true,
+
     autoplay: {
       delay: 4000,
       disableOnInteraction: false,
@@ -146,6 +147,7 @@
       preloader.remove();
     });
   }
+  new PureCounter();
 
   /**
    * Animation on scroll

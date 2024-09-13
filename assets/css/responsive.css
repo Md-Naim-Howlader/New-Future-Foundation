@@ -39,10 +39,10 @@
     width: 40px;
   }
   .swiper-button-next {
-    right: 30%;
+    right: 20%;
   }
   .swiper-button-prev {
-    left: 30%;
+    left: 20%;
     height: 50px;
     width: 50px;
   }
@@ -56,13 +56,13 @@
 @media (max-width: 575px) {
   .swiper-button-next,
   .swiper-button-prev {
-    top: 50%;
+    top: 48%;
   }
   .swiper-button-next {
-    right: 25%;
+    right: 10%;
   }
   .swiper-button-prev {
-    left: 25%;
+    left: 10%;
     height: 50px;
     width: 50px;
   }
