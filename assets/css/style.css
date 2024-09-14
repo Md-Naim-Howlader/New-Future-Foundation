@@ -751,11 +751,20 @@ p {
   margin-bottom: 32px;
   color: var(--color-body);
 }
-
+.project-content .btn-default {
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.project-content .btn-default:hover {
+  background: #eae2ae !important;
+}
 /* footer */
 .footer {
   background: #003321;
-  padding: 30px;
+  padding-top: 42px;
+  padding-bottom: 22px;
   color: #fff;
 }
 
