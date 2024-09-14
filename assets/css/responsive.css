@@ -31,10 +31,33 @@
   .about {
     padding-top: 700px;
   }
-  .video-thmb {
-    padding-top: 220px;
+
+  .about-feature-list {
+    grid-template-columns: 33% 20% 36%;
+  }
+  .about-image .image-2 {
+    position: static;
+  }
+  .about-image .image-2 {
+    max-width: 100%;
+  }
+  .about-image .image-2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .inner-cms-section {
+    padding-top: 50px;
+  }
+  .founder-bio {
+    padding-top: 30px;
   }
 }
+
 @media (max-width: 768px) {
   .swiper-button-next,
   .swiper-button-prev {
@@ -58,6 +81,12 @@
   .our-success {
     bottom: -113%;
   }
+  .img-thumb-1 {
+    max-width: 100%;
+  }
+  .img-thumb-2 {
+    max-width: 100%;
+  }
 }
 @media (max-width: 575px) {
   .swiper-button-next,
@@ -71,5 +100,8 @@
     left: 20%;
     height: 50px;
     width: 50px;
+  }
+  .btn-default {
+    padding: 9px 14px;
   }
 }

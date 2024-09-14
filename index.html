@@ -31,7 +31,8 @@
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--  Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
@@ -49,17 +50,30 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto" href="#">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Programs</a></li>
+            <li><a class="nav-link scrollto" href="#">Home</a></li>
+            <li><a class="nav-link scrollto" href="#">About POB</a></li>
             <li>
-              <a class="nav-link scrollto" href="#portfolio"
-                >Special Projects</a
+              <a class="nav-link scrollto" href="#">POB Program</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#team">POB Projects</a></li>
+            <li><a class="nav-link scrollto" href="#team">POB Partners</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#team"
+                >Gallary: Picture, & Video</a
               >
             </li>
-            <li><a class="nav-link scrollto" href="#team">Affiliates</a></li>
 
-            <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
             <li>
+              <a class="nav-link scrollto" href="#team"
+                >Donate To POB Development</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#contact"
+                >POB Registration, Vouleentire & Member</a
+              >
+            </li>
+            <!-- <li>
               <a class="donateBtn scrollto" href="#about"
                 >Donate
                 <i
@@ -67,7 +81,7 @@
                   class="fa-solid fa-circle-dollar-to-slot"
                 ></i>
               </a>
-            </li>
+            </li> -->
           </ul>
           <i
             style="font-size: 40px; font-weight: bold; color: #fff"
@@ -91,7 +105,7 @@
                     Collaborating with international organizations to create
                     lasting change and expand our impact worldwide.
                   </p>
-                  <a href="affiliates.html">
+                  <a class="btn-default" href="affiliates.html">
                     See Our Affiliates <i class="fa-solid fa-handshake"></i>
                   </a>
                 </div>
@@ -106,7 +120,7 @@
                     all, regardless of background. Join us in building a
                     brighter future!
                   </p>
-                  <a href="affiliates.html">
+                  <a class="btn-default" href="affiliates.html">
                     Learn More <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
@@ -120,7 +134,7 @@
                     Celebrating our multi-ethnic, multi-cultural approach to
                     education and community development.
                   </p>
-                  <a href="affiliates.html">
+                  <a class="btn-default" href="affiliates.html">
                     Explore Our Initiatives <i class="fa-solid fa-globe"></i>
                   </a>
                 </div>
@@ -191,9 +205,9 @@
       <!-- our success start -->
       <section class="about">
         <div class="container">
-          <div class="section-title">
+          <div class="section-title text-center">
             <h5>About Us</h5>
-            <h2>
+            <h2 style="font-size: 45px;">
               New Future <br />
               Foundation
             </h2>
@@ -216,24 +230,30 @@
             <div class="col-lg-6 col-sm-12 video-thmb">
               <div class="row img-thumb">
                 <div
-                  class="w-50 d-flex align-items-center justify-content-center"
+                  class="img-thumb-1 d-flex align-items-center justify-content-center"
                 >
                   <p>
                     We advocate for peace, education, and employment through a
                     multicultural approach.
                   </p>
                 </div>
-                <div class="about-video-box w-50">
-                  <img
-                    src="./assets/img/about/home-about-thumb.jpeg"
-                    alt="about thumbnail"
-                  />
-                  <a
-                    class="play-btn"
-                    href="https://www.youtube.com/watch?v=cDdjWGzms9g"
-                    ><i class="fas fa-play"></i
-                  ></a>
-                  <p>
+                <div class="img-thumb-2">
+                  <div class="about-video-box">
+                    <img
+                      src="./assets/img/about/home-about-thumb.jpeg"
+                      alt="about thumbnail"
+                    />
+                    <a
+                      class="play-btn"
+                      href="https://www.youtube.com/watch?v=cDdjWGzms9g"
+                      ><i class="fas fa-play"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-lg-12">
+                  <p class="ps-0 ms-0">
                     Imagine a world where everyone has the tools to shape their
                     own destiny. That's the vision driving New Future
                     Foundation. We're more than just an organization; we're a
@@ -243,12 +263,196 @@
                     potential, celebrate diversity, and build stronger, more
                     resilient communities together.
                   </p>
+                  <div class="about-feature-list mt-4">
+                    <div class="play-btn">
+                      <i class="fas fa-info"></i>
+                    </div>
+                    <div class="feature-content">
+                      <p>Get to know us better</p>
+                    </div>
+                    <div class="feature-btn ms-lg-5">
+                      <a href="" class="btn-default"
+                        >Learn More <i class="fa-solid fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- end about section -->
+      <!-- start inner-cms  section -->
+      <section class="inner-cms-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="founder-img">
+                <img
+                  src="./assets/img/dr-delois-2.webp"
+                  alt="Queen Mother Dr. Delois Blakely, Founder"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="founder-bio">
+                <h6>Meet Our Founder</h6>
+                <h3>Queen Mother Dr. Delois Blakely</h3>
+                <p>
+                  Queen Mother Dr. Delois Blakely champions the aspirations of
+                  women, youth, education, economic-social development and
+                  community relations. With a distinguished academic background,
+                  including degrees from prestigious institutions like MIT,
+                  Harvard, and Columbia, she has dedicated her life to
+                  humanitarian causes.
+                </p>
+                <p>
+                  Appointed as "The Community Mayor of Harlem" in 1995 and
+                  Goodwill Ambassador to Africa in 2009, Dr. Blakely has been a
+                  tireless advocate for human rights, women's empowerment, and
+                  poverty elimination. Her work spans from local community
+                  support to international diplomacy at the United Nations.
+                </p>
+                <p>
+                  Dr. Blakely's vision for New Future Foundation focuses on
+                  providing meaningful opportunities for youth through
+                  internships, training, and skill development. Our programs
+                  emphasize peace, education, health services, and employment
+                  opportunities, aiming to foster independence and community
+                  involvement.
+                </p>
+                <div class="founder-contact">
+                  <div>
+                    <p>
+                      <img
+                        src="./assets/img/phone-icon-primary-2.svg"
+                        alt="phone"
+                      />
+                    </p>
+                    <a href="tel:+1838900-1111">+1 (838) 900-1111</a>
+                  </div>
+                  <div>
+                    <p>
+                      <img
+                        src="./assets/img/mail-icon-primary.svg"
+                        alt="phone"
+                      />
+                    </p>
+                    <a href="mailto:info@newfuturefoundation.org"
+                      >info@newfuturefoundation.org</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end inner-cms  section -->
+      <!-- Start how we help section -->
+      <section class="how-we-help">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="how-we-help-img">
+                <img
+                  src="./assets/img/how-we-help/collage-1.jpg"
+                  alt="College image"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="how-we-help-content">
+                <div class="section-title">
+                  <h5>How We Make an Impact</h5>
+                  <h2 style="font-size: 45px;">Our Programs</h2>
+                </div>
+                <!-- Bootstrap Tab Pills Start -->
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Home</div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">.Profile.</div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">.contact..</div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End how we help section -->
+
+      <!-- Start Special Projects -->
+       <section class="special-projects">
+          <div class="container">
+            <div class="section-title text-center">
+                  <h5>Special Projects</h5>
+                  <h2>Our Key Initiatives</h2>
+            </div>
+            <div class="projects row justify-content-between ">
+              <div class="col-lg-4 col-md-6">
+                <div class="project">
+                  <div class="number">
+                    1
+                  </div>
+                  <div class="title">
+                    <h3><a href="#">Support the SDGs</a></h3>
+                    <p>The New Future Foundation believes and support the SDGs by providing SDG education and helping subsidize GED education and other educational programs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="project">
+                  <div class="number">
+                    2
+                  </div>
+                  <div class="title">
+                    <h3><a href="#">Global Education</a></h3>
+                    <p>New Future Foundation promotes and participates in youth educational programs around the world. The foundation had promoted and participated in educational and recreational programs in Africa, Europe and the Americas.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="project">
+                  <div class="number">
+                    3
+                  </div>
+                  <div class="title">
+                    <h3><a href="#">Internship Programs</a></h3>
+                    <p>New Future Foundation provides internship programs for high school, college and post graduate students at the United Nations.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row groce-island-project justify-content-between">
+              <div class="col-lg-6 col-md-12 pe-5">
+                <div class="project-images">
+                  <img class="img-1" src="./assets/img/projects/goree-1.jpeg" alt="The Goree Island Project">
+                  <img class="img-2" src="./assets/img/projects/goree-2.png" alt="The Goree Island Project">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 project-content ">
+
+                  <h2>The Goree Island Project</h2>
+
+                <p>The Goree Island Project is a transformative initiative that aims to reconnect the global African Diaspora with their ancestral homeland. By facilitating meaningful cultural exchanges, scientific collaborations, and shared economic opportunities, the project empowers participants to rediscover their roots, foster healing, and unlock the vast potential of Africa's natural resources and innovative spirit.</p>
+                <a class="btn-default" href="contact.html">Get Involved!</a>
+              </div>
+            </div>
+          </div>
+       </section>
+      <!-- End Special Projects -->
     </main>
 
     <div id="preloader">
@@ -264,5 +468,20 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
